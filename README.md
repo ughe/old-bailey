@@ -1,13 +1,13 @@
 # TigerOCR
 
-`tigerocr` is a client used for benchmarking OCR performance of leading cloud providers.
+`tigerocr` is a client used for benchmarking OCR performance of leading cloud providers. Data used in the Old Bailey and OCR paper is available at [https://obo.cs.princeton.edu/data/](https://obo.cs.princeton.edu/data/).
 
 ## Install
 
 ```
 pip install -r requirements.txt
-go build -o bin/ ./...
-cp bin/* scripts/* $GOPATH/bin/
+go install ./...
+cp scripts/* $GOPATH/bin/
 ```
 
 ## Create Keys
@@ -29,6 +29,12 @@ Usage of tigerocr:
     	More info: https://cloud.google.com/vision/docs/before-you-begin
   -keys string
     	Path to credentials directory (default "/home/user/.aws")
+```
+
+For example:
+
+```
+tigerocr -aws -azure -gcp image.jpg
 ```
 
 ## OCR PDF
