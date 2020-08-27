@@ -1,6 +1,6 @@
-# TigerOCR
+# Old Bailey and OCR
 
-`tigerocr` is a client used for benchmarking OCR performance of leading cloud providers. Data used in the Old Bailey and OCR paper is available at [https://obo.cs.princeton.edu/data/](https://obo.cs.princeton.edu/data/).
+Code for the Old Bailey and OCR paper. `tigerocr` is a client used for benchmarking OCR performance of leading cloud providers. Data used in the Old Bailey and OCR paper is available at [https://obo.cs.princeton.edu/data/](https://obo.cs.princeton.edu/data/) and is [licensed by the Old Bailey Online](https://www.oldbaileyonline.org/static/Legal-info.jsp#termsofuse) under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) terms.
 
 ## Install
 
