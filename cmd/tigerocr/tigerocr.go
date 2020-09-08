@@ -12,7 +12,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/ughe/tigerocr/ocr"
+	"github.com/ughe/old-bailey/ocr"
 )
 
 func runService(image []byte, Service ocr.Client, dst string) (string, error) {

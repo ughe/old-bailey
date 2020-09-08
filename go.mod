@@ -1,4 +1,4 @@
-module github.com/ughe/tigerocr
+module github.com/ughe/old-bailey
 
 go 1.14
 

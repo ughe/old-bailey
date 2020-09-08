@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/ughe/tigerocr/editdist"
+	"github.com/ughe/old-bailey/editdist"
 )
 
 func main() {

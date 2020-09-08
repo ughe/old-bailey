@@ -8,7 +8,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/ughe/tigerocr/ocr"
+	"github.com/ughe/old-bailey/ocr"
 )
 
 func fieldToString(result *ocr.Result, key string) (string, error) {
